@@ -1,0 +1,85 @@
+= Calculator Project
+
+== Introduction
+
+This project consists of two distinct calculator applications:
+
+ 1. **GUI Calculator**: A graphical user interface-based calculator.
+ 2. **Text Calculator**: A text-based calculator that operates via command line.
+
+== Requirements
+
+Both applications require the following to be installed:
+- Java Development Kit (JDK) 17 or higher
+
+== GUI Calculator
+
+The GUI Calculator provides a user-friendly graphical interface for performing basic arithmetic operations.
+
+=== Features
+- Addition, subtraction, multiplication, and division
+- Clear and reset functionality
+- Interactive buttons for digits and operations
+
+=== Installation
+
+1. Clone the repository:
+
+    git clone https://github.com/yaseno2186/CALCULATOR.git
+
+2. Navigate to the `guiCalculator` directory:
+
+    cd CALCULATOR/guiCalculator
+
+3. Compile the Java files:
+
+    javac *.java
+
+4. Run the application:
+
+    java guiCalculator
+
+=== Usage
+
+- Use the buttons to input numbers and operations.
+- Press the "=" button to get the result.
+- Use the "C" button to clear the current input.
+
+== Text Calculator
+
+The Text Calculator allows users to perform arithmetic operations through the command line.
+
+=== Features
+- Supports basic arithmetic operations: addition, subtraction, multiplication, and division
+- Simple text-based input and output
+
+=== Installation
+
+1. Clone the repository:
+
+    git clone https://github.com/yaseno2186/CALCULATOR.git
+
+2. Navigate to the `TextCalculator` directory:
+
+    cd CALCULATOR/TextCalculator
+
+3. Compile the Java files:
+
+    javac *.java
+
+4. Run the application:
+
+    java TextCalculator
+
+=== Usage
+
+- Enter expressions in the format `operand1 operator operand2` (e.g., `3 + 4`).
+- Press Enter to see the result.
+
+== Contributing
+
+We welcome contributions! Please fork the repository and create a pull request with your changes.
+
+== License
+
+This project is licensed under the MIT License. See the LICENSE file for details.

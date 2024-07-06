@@ -6,12 +6,12 @@ import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Jui extends JFrame {
+public class guiCalculator extends JFrame {
     String FirstNumber, theRule, SecondNumber;
     static JTextField NumberField = new JTextField();
 
 
-    public Jui() {
+    public guiCalculator() {
         super("Calculator");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -85,7 +85,7 @@ public class Jui extends JFrame {
     }
 
     public static void main(String[] args) {
-        new Jui();
+        new guiCalculator();
     }
 
 
